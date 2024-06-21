@@ -52,7 +52,7 @@ const BasicTable = () => {
   const maxMonthName = maxMonthNumber ? monthNames[maxMonthNumber - 1] : '';
 
   return (
-    <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" minHeight="100vh" marginBottom={50}>
+    <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" minHeight="40vh" marginBottom={50}>
       <Box display="flex" flexDirection="row" justifyContent="space-between" width="100%" marginBottom={5}>
         <Card sx={{ padding: 2, marginRight: 2, width: '50%' }}>
           {maxCompany && (
